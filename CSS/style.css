@@ -1,0 +1,25 @@
+header {
+    background: url(/assets/IMG/panierleg.jpg) fixed no-repeat;
+    background-size: cover;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 7rem;
+    margin: 14rem;
+}
+
+.opacity {
+    opacity: 0.5;
+    font-size: 6rem;
+    color: white;
+    transform: rotate(-90deg);
+    left: -15%;
+    top: 40%;
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+}
