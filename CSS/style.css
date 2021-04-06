@@ -17,34 +17,68 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
+/* header */
 
 header {
-    background: url(/assets/IMG/panierleg.jpg) fixed no-repeat;
+    background: url(../assets/IMG/panierleg.jpg) fixed no-repeat;
     background-size: cover;
-    height: 90vh;
-    width: 100%;
+    height: 70vh;
     background-position: top;
 }
 
 header h1 {
-    font-size: 7rem;
-    padding: 14rem;
+    font-size: 5rem;
+    padding: 9rem;
 }
 
 .opacity {
-    opacity: 0.5;
-    font-size: 4rem;
+    opacity: 0.6;
+    font-size: 3rem;
     color: white;
     transform: rotate(-90deg);
-    left: -9%;
-    top: 36%;
+    left: 70%;
+    top: 35%;
     position: absolute;
 }
 
+@media (max-width: 1200px) {
+    header h1{
+        font-size: 4rem;
+        padding: 4rem;
+    }
+    
+}
+
+@media (max-width: 992px){
+    header h1{
+        font-size: 3rem;
+        padding: 3rem;
+    }
+
+    .opacity{
+        font-size: 2rem;
+        top: 40%;
+    }
+}
+
+@media (max-width: 768px){
+    header h1{
+        font-size: 2rem;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 576px){
+    .opacity{
+        left: 58%;
+    }
+}
+
+/* main */
+
 #who{
-    width: 100%;
-    height: 50vh;
-    background: url(/assets/IMG/champs.jpg) fixed no-repeat;
+    /* height: 50vh; */
+    background: url(../assets/IMG/champs.jpg) fixed no-repeat;
     background-size: cover;
     background-position: 25% 75%;
 }
