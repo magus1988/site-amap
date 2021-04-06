@@ -1,32 +1,12 @@
-<<<<<<< HEAD
 
-
-header {
-    background: url(/assets/IMG/panierleg.jpg) fixed no-repeat;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 90vh;
-    width: 100%;
-}
-
-header h1 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 7rem;
-    padding: 14rem;
-}
-
-.opacity {
-    opacity: 0.5;
-    font-size: 6rem;
-=======
 @font-face {
-    font-family: "Roboto";
-    src: url("../Fonts/Roboto/Roboto-Regular.ttf");
+    font-family: "Roboto ";
+    src: url("../assets/Fonts/Roboto/Roboto-Regular.ttf");
 }
 
 @font-face {
     font-family: "Roboto Condensed";
-    src: url("../Fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf");
+    src: url("../assets/Fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
 }
 
 body{
@@ -56,21 +36,13 @@ header h1 {
     opacity: 0.6;
     font-size: 3rem;
     color: white;
->>>>>>> 367cd3c9854796d3539e6a1f502f7926366c21e3
     transform: rotate(-90deg);
     left: 70%;
     top: 35%;
     position: absolute;
-<<<<<<< HEAD
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
-footer{
-    background-color: grey;
-}
 
-=======
-}
 
 @media (max-width: 1200px) {
     header h1{
@@ -113,4 +85,19 @@ footer{
     background-size: cover;
     background-position: 25% 75%;
 }
->>>>>>> 367cd3c9854796d3539e6a1f502f7926366c21e3
+
+/* footer */
+
+
+footer{
+    text-decoration: none;
+    font-size: 1.2rem;
+    background: url(/site-amap/assets/IMG/verge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#map{
+    width: 400px;
+    height: 350px;
+}
