@@ -80,10 +80,32 @@ header h1 {
 /* main */
 
 #who{
-     /* height: 50vh; */
-    background: url(../assets/IMG/champs.jpg) fixed no-repeat;
+    background: url(../assets/IMG/champs.jpg) fixed;
+    background-repeat: repeat;
     background-size: cover;
-    background-position: 25% 75%;
+}
+
+/* Section accodéon */
+
+.menuItemsD{
+    list-style: none;
+    font-size: 2rem;
+    color: white !important;
+}
+
+.menuItemsD:hover{
+    color: darkturquoise !important;
+    cursor: pointer;
+}
+
+.sousMenu{
+    position: absolute;
+    transform: translatex(100%);
+    transition: all 1s ease-in-out;
+}
+
+.sousMenu.isOpen{
+    transform: translateX(0);
 }
 
 /* footer */
