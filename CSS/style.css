@@ -22,23 +22,22 @@ header {
     background: url(/assets/IMG/panierleg.jpg) fixed no-repeat;
     background-size: cover;
     height: 90vh;
-    position: absolute;
-    top: 0;
     width: 100%;
+    background-position: top;
 }
 
 header h1 {
     font-size: 7rem;
-    margin: 14rem;
+    padding: 14rem;
 }
 
 .opacity {
     opacity: 0.5;
-    font-size: 6rem;
+    font-size: 4rem;
     color: white;
     transform: rotate(-90deg);
-    left: -15%;
-    top: 40%;
+    left: -9%;
+    top: 36%;
     position: absolute;
 }
 
